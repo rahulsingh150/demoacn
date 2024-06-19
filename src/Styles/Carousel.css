@@ -1,0 +1,51 @@
+/* Carousel.css */
+.carousel {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-root{
+    width: 800px !important;
+  }
+  /* .slider-wrapper{
+    width: 500px !important;
+    margin: 0 !important;
+  } */
+  .carousel .slide {
+    background: #fff;
+  }
+  
+  .carousel .carousel-status {
+    display: none;
+  }
+  
+  .carousel .control-prev,
+  .carousel .control-next {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .carousel img {
+    width: auto; /* Ensure images don't stretch */
+    height: 500px !important;
+    max-height: 500px; /* Ensure images don't exceed the height of the container */
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the images horizontally */
+  }
+  
+  /* Mobile Responsiveness */
+  @media screen and (max-width: 768px) {
+    .carousel {
+      margin-bottom: 10px;
+    }
+    .carousel-root{
+      width: 100% !important;
+    }
+  }
+  
+  
+  @media (max-width: 1226px) {
+    .carousel-root{
+      width: 100% !important;
+    }
+  }

@@ -1,0 +1,16 @@
+.mission, .vision {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+.mission ul{
+  padding: 30px;
+}
+
+.mission  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
