@@ -4,24 +4,20 @@
 ::before {
   box-sizing: border-box;
 }
-h2 {
+.H2-Heading {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
 }
-h2 {
+.H2-Heading {
   font-size: calc(1.325rem + 0.9vw);
 }
 @media (min-width: 1200px) {
-  h2 {
+  .H2-Heading {
     font-size: 2rem;
   }
-}
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
 }
 
 
@@ -40,7 +36,7 @@ p {
   width: 90%;
 }
 .slide-track {
-  animation: scroll 9s linear infinite;
+  animation: scroll 28s linear infinite;
 }
 .slide-track,
 .slide-track2 {
@@ -100,7 +96,7 @@ p {
     transform: translateX(0);
   }
   to {
-    transform: translateX(-1750px);
+    transform: translateX(-5050px);
   }
 }
 @keyframes scroll2 {
